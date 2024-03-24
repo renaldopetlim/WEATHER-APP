@@ -12,7 +12,7 @@
         justify-content: center;
         background: #06283D;
     }
-        #container{
+        .container{
             position: relative;
             width: 400px;
             height: 105px;
@@ -150,7 +150,7 @@
                 scale: 0;
                 opacity: 0;
             }
-                .fade-in{
+                .fadeIn{
                     animation: 0.5s fadeIn forwards;
                     animation-delay: 0.5s;
                 }
