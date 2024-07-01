@@ -12,7 +12,7 @@ search.addEventListener('click', () => {
     if (city === '')
         return;
 
-    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${APIKey}`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${APIKey}&lang=pt_br`)
         .then(response => response.json())
         .then(json => {
 

@@ -121,11 +121,15 @@
                                 color: #06283D;
                                 font-size: 22px;
                                 font-weight: 500;
+                                display: block;
+                                text-align: center;
                             }
                             .weather-details p{
                                 color: #06283D;
                                 font-size: 14px;
                                 font-weight: 500;
+                                display: block;
+                                text-align: center;
                             }
 
             .not-found{
